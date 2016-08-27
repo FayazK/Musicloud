@@ -23,5 +23,5 @@ function musicloud_html(){
     </div>
 <?php
 }
-//add_action('wp_footer','musicloud_html',0);
+add_action('wp_footer','musicloud_html',0);
 

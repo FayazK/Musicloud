@@ -4,7 +4,7 @@ Plugin Name: Music Cloud
 Plugin URI: http://salfay.com
 Description: A Simple Soundcloud Plugin
 Author: Fayaz K
-Version: 0.1
+Version: 0.2
 Author URI: http://fayazk.com/
 */
 
@@ -23,5 +23,5 @@ function musicloud_html(){
     </div>
 <?php
 }
-add_action('wp_footer','musicloud_html',0);
+//add_action('wp_footer','musicloud_html',0);
 
